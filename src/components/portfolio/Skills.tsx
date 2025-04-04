@@ -6,20 +6,16 @@ import { Badge } from '@/components/ui/badge';
 const Skills = () => {
   const skillCategories = [
     {
-      category: 'Cloud & Infrastructure',
-      skills: ['AWS', 'Azure', 'Terraform', 'Docker', 'Kubernetes', 'CI/CD', 'Infrastructure as Code']
+      category: 'Power Platform',
+      skills: ['Power Apps', 'Power Automate', 'Power Virtual Agents', 'Dataverse', 'AI Builder']
     },
     {
-      category: 'Languages & Frameworks',
-      skills: ['Python', 'Bash', 'JavaScript', 'Node.js', 'React']
+      category: 'SharePoint',
+      skills: ['SharePoint Online', 'SPFx', 'MS Lists', 'Site Design', 'Workflows']
     },
     {
-      category: 'System Administration',
-      skills: ['Linux', 'Windows Server', 'Networking', 'Security', 'Monitoring', 'Automation']
-    },
-    {
-      category: 'Tools & Platforms',
-      skills: ['GitHub', 'GitLab', 'Jira', 'Jenkins', 'Prometheus', 'Grafana', 'ELK Stack']
+      category: 'Development',
+      skills: ['JavaScript', 'TypeScript', 'React', 'HTML/CSS', 'PowerShell', 'REST API', 'C', 'Azure']
     },
   ];
 
@@ -28,7 +24,7 @@ const Skills = () => {
       <div className="container">
         <h2 className="text-3xl font-bold mb-8 text-center">Skills & Expertise</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category, index) => (
             <Card key={index}>
               <CardContent className="pt-6">
