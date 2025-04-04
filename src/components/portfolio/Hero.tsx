@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Github, Linkedin, Mail } from 'lucide-react';
+import profilepic from '../../Assets/GoncasPerfil.jpg';
 
 const Hero = () => {
   return (
@@ -37,7 +38,7 @@ const Hero = () => {
         </div>
         <div className="order-1 md:order-2 flex justify-center">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
-            {/* Placeholder for profile image - replace with actual image URL */}
+            <img src={profilepic}/>
             <div className="w-full h-full bg-muted flex items-center justify-center text-muted-foreground">
               Profile Image
             </div>
