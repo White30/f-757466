@@ -6,25 +6,25 @@ import { Badge } from '@/components/ui/badge';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Cloud Engineer',
-      company: 'SMGRP',
-      period: 'Oct 2021 - Present',
-      description: 'Working with Infrastructure as Code to deploy highly available and scalable infrastructure in AWS. Developing CI/CD pipelines using GitHub Actions and Terraform.',
-      skills: ['AWS', 'Terraform', 'CI/CD', 'GitHub Actions', 'Docker'],
+      title: 'Software Developer Specialist',
+      company: 'DevScope',
+      period: 'Jan 2025 - Present',
+      description: 'Building applications using low-code tools (Microsoft Power Platform). Process Automation through Power Automate. Creating custom SharePoint pages with SPFX (SharePoint framework). PowerShell scripting to automate internal integration processes between systems. Speaker at "App in a Day" event by Microsoft.',
+      skills: ['Microsoft Power Platform', 'Power Automate', 'SPFX', 'SharePoint', 'PowerShell', 'TypeScript'],
     },
     {
-      title: 'Systems Administrator',
-      company: 'SAPO',
-      period: 'Jan 2021 - Sep 2021',
-      description: 'Responsible for maintaining and monitoring infrastructure. Implementing and managing Linux servers and network services.',
-      skills: ['Linux', 'System Administration', 'Networking', 'Server Management'],
+      title: 'Software Developer',
+      company: 'DevScope',
+      period: 'Aug 2022 - Jan 2025',
+      description: 'Software Developer focused on Portals - Office365, SharePoint & .NET development. Created and maintained digital workplace solutions for enterprise clients.',
+      skills: ['Office365', 'SharePoint', '.NET', 'TypeScript', 'React'],
     },
     {
-      title: 'IT Support Specialist',
-      company: 'EVISO',
-      period: 'Jan 2020 - Dec 2020',
-      description: 'Provided technical support to users, troubleshooting hardware and software issues. Maintained and upgraded company IT equipment.',
-      skills: ['Technical Support', 'Troubleshooting', 'Windows', 'Hardware'],
+      title: 'Internship Trainee',
+      company: 'DevScope',
+      period: 'Mar 2022 - Jul 2022',
+      description: 'Completed internship focused on Microsoft Power Platform technologies, learning and implementing business solutions using low-code tools.',
+      skills: ['Microsoft Power Apps', 'Microsoft Power Automate', 'SharePoint'],
     },
   ];
 

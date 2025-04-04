@@ -9,11 +9,12 @@ const Hero = () => {
       <div className="container grid md:grid-cols-2 gap-12 items-center">
         <div className="order-2 md:order-1">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Gonçalo Branco</h1>
-          <h2 className="text-2xl md:text-3xl text-muted-foreground mb-6">Cloud Engineer</h2>
+          <h2 className="text-2xl md:text-3xl text-muted-foreground mb-6">Software Developer Specialist | Portals & Collaboration</h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Experienced IT professional with a focus on cloud engineering and system operations.
-            Currently working at SMGRP as a Cloud Engineer, developing infrastructure and implementing
-            solutions in AWS and other cloud platforms.
+            Experienced software developer specialized in Microsoft Power Platform, 
+            SharePoint, and Office 365 solutions. Currently working at DevScope, 
+            building applications using low-code tools and creating custom 
+            SharePoint pages with SPFX.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button>
