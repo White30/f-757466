@@ -18,16 +18,34 @@ const Education = () => {
       description: 'Grade: 15'
     },
     {
-      degree: 'AWS Certified Solutions Architect - Associate',
-      institution: 'Amazon Web Services',
+      degree: 'PL-100: Microsoft Certified: Power Platform App Maker Associate',
+      institution: 'Microsoft',
       period: '2021',
-      description: 'Professional certification validating expertise in designing and deploying scalable systems on AWS.'
+      description: 'Power Platform App Maker Associate'
     },
     {
-      degree: 'Azure Administrator Associate',
+      degree: 'Microsoft Applied Skills: Create and manage model-driven apps with Power Apps and Dataverse',
       institution: 'Microsoft',
-      period: '2022',
-      description: 'Certification for implementing, monitoring, and maintaining Microsoft Azure solutions.'
+      period: '2024',
+      description: 'Certification for create and manage model-driven apps with Power Apps and Dataverse.'
+    },
+    {
+      degree: 'Microsoft Applied Skills: Create and manage canvas apps with Power Apps',
+      institution: 'Microsoft',
+      period: '2024',
+      description: 'Certification for create and manage canvas apps with Power Apps.'
+    },
+    {
+      degree: 'Microsoft Applied Skills: Implement AI models with Microsoft Power Platform AI Builder',
+      institution: 'Microsoft',
+      period: '2024',
+      description: 'Certification for implement AI models with Microsoft Power Platform AI Builder'
+    },
+    {
+      degree: 'Microsoft Applied Skills: Create and manage model-driven apps with Power Apps and Dataverse',
+      institution: 'Microsoft',
+      period: '2024',
+      description: 'Certification for create and manage model-driven apps with Power Apps and Dataverse'
     }
   ];
 

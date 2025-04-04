@@ -33,17 +33,17 @@ const Contact = () => {
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-5 w-5 text-primary" />
-                <span>Lisbon, Portugal</span>
+                <span>Aveiro, Portugal</span>
               </div>
             </div>
             
             <div className="mt-8">
               <h3 className="text-xl font-semibold mb-4">Looking for opportunities in:</h3>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-                <li>Cloud Engineering</li>
-                <li>DevOps</li>
-                <li>System Administration</li>
-                <li>Infrastructure Management</li>
+                <li>Power Platform Engineer</li>
+                <li>Power Platform Developer</li>
+                <li>RPA Developer</li>
+                <li>Low-Code Developer</li>
               </ul>
             </div>
           </div>
