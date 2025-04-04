@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base : 'gwhitePort',
   plugins: [
     react(),
     mode === 'development' &&
@@ -20,3 +21,5 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
+
