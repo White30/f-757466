@@ -6,10 +6,16 @@ import { Calendar } from 'lucide-react';
 const Education = () => {
   const education = [
     {
-      degree: 'Bachelor of Science, Computer Engineering',
-      institution: 'Instituto Superior de Engenharia de Lisboa',
-      period: '2015 - 2019',
-      description: 'Focused on computer systems, networks, and software development. Completed coursework in cloud computing, distributed systems, and network security.'
+      degree: "Master's degree in Computer Engineering",
+      institution: "Instituto Superior de Engenharia do Porto",
+      period: 'Sep 2023 - Present',
+      description: 'Specialization in Information and Knowledge Technologies.'
+    },
+    {
+      degree: 'Licenciatura em Engenharia Informática',
+      institution: 'Instituto Politécnico de Viseu',
+      period: '2019 - 2022',
+      description: 'Grade: 15'
     },
     {
       degree: 'AWS Certified Solutions Architect - Associate',
